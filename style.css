@@ -74,3 +74,34 @@ nav{
   margin-top: 300px;
  }
  
+ .meet-section h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+ }
+
+ .speakers-section{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 30px;
+ }
+ .single-card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+ }
+
+.skill-p{
+    color:#2563EB;
+    font-size:12px ;
+    margin:5px;
+}
+
+.work-p{
+    color: #575757;
+    font-size: 13px;
+    margin: 5px;
+}
