@@ -221,3 +221,75 @@ li::marker{
     border: 1px solid #0D1B2A;   
     border-radius: 5px;   
 }
+
+/* Base Style for the Section */
+.tracks-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Heading Style */
+.section-title h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+/* Container for all boxes */
+.tracks-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling each individual box */
+.track-box {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 10px;
+    width: 240px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Emoji Icon Style */
+.icon {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Box Titles */
+.track-box h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #222222;
+}
+
+/* Box Descriptions */
+.track-box p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+/* Blue Tag Style */
+.sessions-tag {
+    background-color: #e6f0ff;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
