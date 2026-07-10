@@ -39,6 +39,7 @@ nav{
     background-color: #1D4ED8;
     color: #FFFFFF;
     border-radius:12px;
+    border: 1px solid #1D4ED8;
  }
 
  .hero-section{
@@ -104,4 +105,119 @@ nav{
     color: #575757;
     font-size: 13px;
     margin: 5px;
+}
+
+.secure-spot{
+        max-width: 1320px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.spot-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.spot-p{
+    text-align: center;
+    color:#575757;
+}
+
+.spot-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.spot-card h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.spot-card p{
+    font-size: 13px;
+}
+
+.card-standard{
+    width: 270px;
+    height: 290px;
+    background-color:  #FFFFFF;
+    gap: 20px;
+    padding: 10px  30px;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border: 1px solid #e5e7e5;
+
+}
+
+.card-standard p{
+    color: #333333;
+}
+
+li::marker{
+    color:#60a5fa;
+}
+
+.card-pro{
+        width: 270px;
+    height: 290px;
+    background-color:  #0D1B2A;
+    gap: 20px;
+    padding: 10px  30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+
+.card-team{
+        width: 270px;
+    height: 290px;
+    background-color:  #f8f9fb;
+    gap: 20px;
+    padding: 10px  30px;
+    border-radius: 10px;
+    margin-right: 140px;
+    margin-top: 20px;
+    border: 1px solid #e5e7e5;
+}
+
+.card-team p{
+    color: #333333;
+}
+
+.pro-p{
+    color: #60a5fa;
+}
+
+.standard-btn{
+    width: 260px;
+    height: 30px;
+    margin-top: 12px;
+    color:#2563EB ;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+}
+
+.pro-btn{
+    width: 260px;
+    height: 30px;
+    margin-top: 12px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: 1px solid #2563EB;   
+    border-radius: 5px;
+}
+
+.team-btn{
+    width: 260px;
+    height: 30px;
+    margin-top: 12px;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;   
+    border-radius: 5px;   
 }
