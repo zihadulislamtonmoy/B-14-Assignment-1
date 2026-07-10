@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -25,6 +26,9 @@ nav{
     list-style: none;
     align-items: center;
 }
+.nav-list a:hover{
+    background: #94a3b8;
+}
  ul li a{
     text-decoration: none;
     color:#575757;
@@ -40,6 +44,10 @@ nav{
     color: #FFFFFF;
     border-radius:12px;
     border: 1px solid #1D4ED8;
+ }
+
+ .Common-btn:hover{
+    background: #94a3b8;
  }
 
  .hero-section{
@@ -202,6 +210,9 @@ li::marker{
     border: 1px solid #2563EB;
     border-radius: 5px;
 }
+.standard-btn:hover{
+    background: #94a3b8;
+}
 
 .pro-btn{
     width: 260px;
@@ -213,6 +224,10 @@ li::marker{
     border-radius: 5px;
 }
 
+.pro-btn:hover{
+    background: #94a3b8;
+}
+
 .team-btn{
     width: 260px;
     height: 30px;
@@ -221,7 +236,9 @@ li::marker{
     border: 1px solid #0D1B2A;   
     border-radius: 5px;   
 }
-
+.team-btn:hover{
+    background: #94a3b8;
+}
 /* Base Style for the Section */
 .tracks-section {
     background-color: #ffffff;
@@ -292,4 +309,75 @@ li::marker{
     font-weight: bold;
     padding: 5px 12px;
     border-radius: 4px;
+}
+
+
+.footer{
+    background:#0f172a;
+    color:#fff;
+    padding:40px 80px 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo h2{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.footer-logo2{
+    background-color: #cbd5e1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer-logo p{
+    color:#cbd5e1;
+    font-size:15px;
+}
+
+.social-links{
+    display:flex;
+    gap:18px;
+}
+
+.social-links a{
+    width:45px;
+    height:45px;
+    background:#1e293b;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#2563eb;
+    
+}
+
+.footer hr{
+    margin:30px 0 20px;
+    border:none;
+    border-top:1px solid #334155;
+}
+
+.copyright{
+    text-align:center;
+}
+
+.copyright p{
+    color:#94a3b8;
+    font-size:15px;
 }
