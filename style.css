@@ -42,8 +42,13 @@ nav{
     padding: 4px;
     background-color: #1D4ED8;
     color: #FFFFFF;
-    border-radius:12px;
+    border-radius:10px;
     border: 1px solid #1D4ED8;
+ }
+
+ .first-btn{
+        width: 192px;
+    height: 40px;
  }
 
  .Common-btn:hover{
@@ -151,7 +156,7 @@ nav{
 
 .card-standard{
     width: 270px;
-    height: 290px;
+    height: 300px;
     background-color:  #FFFFFF;
     gap: 20px;
     padding: 10px  30px;
@@ -172,7 +177,7 @@ li::marker{
 
 .card-pro{
         width: 270px;
-    height: 290px;
+    height: 300px;
     background-color:  #0D1B2A;
     gap: 20px;
     padding: 10px  30px;
@@ -184,7 +189,7 @@ li::marker{
 
 .card-team{
         width: 270px;
-    height: 290px;
+    height: 300px;
     background-color:  #f8f9fb;
     gap: 20px;
     padding: 10px  30px;
@@ -239,145 +244,129 @@ li::marker{
 .team-btn:hover{
     background: #94a3b8;
 }
-/* Base Style for the Section */
-.tracks-section {
-    background-color: #ffffff;
-    padding: 60px 20px;
+
+/* ==========================
+   Hackathon Section
+========================== */
+
+.hackathon{
+    width: 100%;
+    background: #f8f9fc;
     text-align: center;
-    font-family: sans-serif;
 }
 
-/* Heading Style */
-.section-title h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    color: #111111;
-}
-
-.section-title p {
-    font-size: 16px;
-    color: #666666;
-    margin-bottom: 40px;
-}
-
-/* Container for all boxes */
-.tracks-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Styling each individual box */
-.track-box {
-    display: inline-block;
-    vertical-align: top;
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 25px;
-    margin: 10px;
-    width: 240px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-/* Emoji Icon Style */
-.icon {
-    font-size: 28px;
+.hackathon-title h2{
+    font-size: 42px;
+    color: #111827;
     margin-bottom: 15px;
 }
 
-/* Box Titles */
-.track-box h3 {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-    color: #222222;
+.hackathon-title p{
+    max-width: 700px;
+    margin: auto;
+    color: #6b7280;
+    line-height: 1.7;
+    margin-bottom: 50px;
 }
 
-/* Box Descriptions */
-.track-box p {
-    font-size: 14px;
-    color: #555555;
-    line-height: 1.5;
-    margin: 0 0 20px 0;
+.hackathon-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
-/* Blue Tag Style */
-.sessions-tag {
-    background-color: #e6f0ff;
-    color: #2563eb;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 5px 12px;
-    border-radius: 4px;
-}
+.hackathon-card{
 
-
-.footer{
-    background:#0f172a;
-    color:#fff;
-    padding:40px 80px 20px;
-}
-
-.footer-container{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-.footer-logo h2{
-    font-size:28px;
-    font-weight:700;
-    margin-bottom:8px;
-}
-
-.footer-logo2{
-    background-color: #cbd5e1;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.footer-logo p{
-    color:#cbd5e1;
-    font-size:15px;
-}
-
-.social-links{
-    display:flex;
-    gap:18px;
-}
-
-.social-links a{
-    width:45px;
-    height:45px;
-    background:#1e293b;
-    color:#fff;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration:none;
-    font-size:18px;
+    width:250px;
+    background:white;
+    padding:30px 20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
     transition:.3s;
 }
 
-.social-links a:hover{
-    background:#2563eb;
-    
+.hackathon-card:hover{
+
+    transform:translateY(-8px);
+
 }
 
-.footer hr{
-    margin:30px 0 20px;
-    border:none;
-    border-top:1px solid #334155;
+.hackathon-card h3{
+
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+.hackathon-card p{
+
+    color:#555;
+    line-height:1.6;
+
+}
+
+.hackathon-btn{
+
+    margin-top:50px;
+
+}
+
+.hackathon-btn a{
+
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:15px 35px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.hackathon-btn a:hover{
+
+    background:#1d4ed8;
+
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    padding:30px 60px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.social{
+    display:flex;
+    gap:20px;
+}
+
+.social a{
+    color:white;
+    font-size:24px;
+    text-decoration:none;
+}
+
+.social a:hover{
+    color:#3b82f6;
+}
+
+hr{
+    margin:20px 0;
 }
 
 .copyright{
     text-align:center;
 }
 
-.copyright p{
-    color:#94a3b8;
-    font-size:15px;
+.logo2{
+    background-color: #94a3b8;
+    padding: 8px;
+    border-radius: 5px;
 }
