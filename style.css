@@ -253,12 +253,14 @@ li::marker{
     width: 100%;
     background: #f8f9fc;
     text-align: center;
+    height: 450px;
 }
 
 .hackathon-title h2{
     font-size: 42px;
     color: #111827;
     margin-bottom: 15px;
+   padding: 10px;
 }
 
 .hackathon-title p{
